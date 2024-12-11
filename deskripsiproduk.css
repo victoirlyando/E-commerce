@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+ }
+
+ body{ 
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ nav {
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    background: linear-gradient(180deg, #000000 85.27%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(2px);
+}
+
+nav .logo{
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-left: 55px;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    
+} 
+ ul{
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 130px;
+    height: 0;
+}  
+li{
+    float: left;
+}  
+li a {
+    /* display: flex; */
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+ } 
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* max-width: 1700px; */
+    /* margin: 0 auto; */
+    /* align-items: center; */
+    /* height: auto; */
+ }
+ .deskripsi{
+    width: 450px;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 300px;
+ }
+ h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+ }
+ .deskripsi p{
+    font-size: 20px;
+    text-align: justify;
+ }
+ img{
+    width: 500px;
+    height: 500px;
+    margin-top: 160px;
+    /* margin-right: 30px;     */
+    /* margin-left: 25px; */
+ }
+ .harga{
+    width: 350px;
+    margin-top: 350px;
+    margin-left: 5px;
+    margin-right: 200px;
+    height: 200px;
+ }
+ .harga b{
+    font-size: 35px;
+ }
+ .harga p{
+    font-size: 15px;
+ }
+ .harga .button{
+    background: #222222;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 20px 25px 20px 25px;
+    /* border: 1px solid red; */
+   
+ }
+ footer p{
+    color: white;
+    background-color: #000000;
+    box-sizing: border-box;
+    padding: 21px 0px 22px 0px;
+    text-align: center;
+    margin-top: 140px;
+ }

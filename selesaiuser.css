@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    background-image: url(images/selesai.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.bungkus{
+    /* width: 100%; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top:36vh;
+    background: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(9px); 
+    border-radius: 9px;
+    box-shadow: 10px 19px 15px rgba(0, 0, 0, 0.564);
+    width: 140vh;
+    height: 29vh;
+}
+hr{
+    width: 750px;
+    font-weight: bold;
+    margin:auto;
+    align-items: center;
+    /* color: black; */
+    border: 1px solid black;
+}
+h1{
+    margin-bottom: 25px;
+    padding-top: 15px;
+    font-size: 45px;
+}
+h2{
+    margin-top: 25px;
+    font-size: 35px;margin-bottom: 50px;
+}
+.bungkus a{
+    background: black;
+    color: white;
+    /* margin-top: 60px; */
+    padding: 17px 40px 17px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* text-align: center; */
+    font-size: 30px;
+    text-decoration: none;    
+}
+.bungkus a:hover{
+    background: green;
+    /* padding: 17px 40px 17px 40px; */
+}

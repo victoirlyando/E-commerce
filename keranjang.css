@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red;   */
+ }
+
+ body{ 
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ nav {
+    /* position: fixed; */
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    background: linear-gradient(180deg, #000000 85.27%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(2px);
+}
+
+nav .logo{
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-left: 55px;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+} 
+ ul{
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 130px;
+    height: 0;
+}  
+li{
+    float: left;
+}  
+li a {
+    /* display: flex; */
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+ } 
+.container{
+    display:flex;
+    /* justify-content: space-around; */    
+    flex-direction: row;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.bungkus1{
+    width: 820px;
+    margin-left: 40px;
+    /* padding-bottom: 80px; */
+}
+.bungkus1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+    /* padding: 10px; */
+    display: inline-block;
+}
+.keranjang{
+    /* width: 700px; */
+    margin-top: 100px;
+    margin-left: 20px;
+}
+ h1{
+    font-size: 40px;
+    margin-top: 30px;
+    width: 350px;
+}
+.bungkus2{
+    height: 320px;
+}
+.bungkus2 img{
+    width: 280px;
+    height: 260px;
+    margin-left: 25px;
+    margin-top: 40px;
+    padding-bottom: 150px;
+    align-items: center;
+    
+}
+/* .keterangan{
+    /* margin-right: 500px; */
+    /* margin-left: 15px; */
+    /* width: 500px; */
+    /* margin-top: 170px; */
+    /* margin-bottom: 205px; */
+/* } */
+.pe p{
+    padding-bottom: 20px;
+
+}
+.bungkus2 .pe{
+    /* margin-top: 50px; */
+    /* box-sizing: border-box; */
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 340px;
+    margin-top: -390px;
+}
+.cart{
+    margin-left: 200px;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 20px;
+    height: 350px;
+    filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+    background: white;
+}
+.cart h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cart table{
+    width: 350px;
+    height: 120px;
+    padding-left: 40px;
+}
+.bungkus{
+    margin-top: 70px;
+    margin-left: 27px;
+    width: 0;
+}
+.bayar{
+    background: #000000;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 15px 50px 15px 50px;
+    box-sizing: border-box; 
+    border-radius: 8px;
+    margin-left: 90px;
+    /* margin-top: 200px; */
+    /* margin-bottom: 200px; */
+}
